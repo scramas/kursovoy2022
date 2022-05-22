@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "295789074774",
+    "project_id": "kursovoi-fd2e4",
+    "storage_bucket": "kursovoi-fd2e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295789074774:android:98b3aecb48577963f21ef7",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295789074774-cdffbq1s5rar3ql8q43rar11vg9te1b4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4ZOxXUyu1aX2UDznxHvLy0vkuQGsKbmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295789074774-cdffbq1s5rar3ql8q43rar11vg9te1b4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

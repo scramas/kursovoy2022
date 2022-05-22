@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!--Меню-->
+    <string name="ad_cat1">Объявления</string>
+    <string name="ad_my_ads"> Мои Объявления</string>
+    <string name="ad_car">Машины</string>
+    <string name="ad_pc">Компьютеры</string>
+    <string name="ad_smp">Смартфоны</string>
+    <string name="ad_dm">Бытовая техника</string>
+    <string name="ad_cat2">Аккаунт</string>
+    <string name="ad_sing_up">Регистрация</string>
+    <string name="ad_in">Вход</string>
+    <string name="ad_out">Выход</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="not_reg">Войдите либо зарегестрируйтесь</string>
+    <!--Авторизация SingDialog-->
+    <string name="email_hint">Email</string>
+    <string name="email_reset_password">Ссылка для востановления пароля отправлена</string>
+    <string name="email_reset_password_error">Введите email для востановления пароля</string>
+    <string name="password_hint">Password</string>
+    <string name="sing_up_action">Зарегестроваться</string>
+    <string name="forget_password">Забыли пароль</string>
+    <string name="sing_in_action">Войти</string>
+    <string name="sing_up_error">Неудолось зарегестрироваться</string>
+    <string name="sing_in_error">Неудолось войти</string>
+    <string name="send_varification_emal_error">Неудолось отправить elmail для подверждения</string>
+    <string name="send_varification_emal_done">На вашу почту былаотправлена ссылка для подверждения вашего аккаунта</string>
+    <!--Edit Activity-->
+    <string name="select_region">*  Выберите регион</string>
+    <string name="select_city">Выберите город</string>
+    <string name="region">Регион</string>
+    <string name="city">Город</string>
+    <string name="index">Индекс</string>
+    <string name="tel">Телефон</string>
+    <string name="tel_number">*Номер телефона</string>
+    <string name="category">Категория</string>
+    <string name="select_category">Выберите категорию</string>
+    <string name="price">Цена</string>
+    <string name="price_hint">*Цена</string>
+    <string name="description">Описание</string>
+    <string name="description_hint">*Описание</string>
+    <string name="with_send">С отправкой</string>
+    <string name="publ">Опублековать</string>
+    <string name="title">Название</string>
+    <string name="title_hite">Введите азвание</string>
+</resources>

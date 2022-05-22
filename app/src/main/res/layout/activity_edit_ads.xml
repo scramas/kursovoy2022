@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClickeSelectRegion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitleRegion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/region"
+                android:textColor="@color/my_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvRegion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:foregroundGravity="center"
+                android:onClick="onClickeSelectRegion"
+                android:padding="10dp"
+                android:text="@string/select_region"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/divider1"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/my_color"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTitleCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/city"
+                android:textColor="@color/my_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:foregroundGravity="center"
+                android:onClick="onClickeSelectCity"
+                android:padding="10dp"
+                android:text="@string/select_city"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/divider2"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/my_color"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTitleTel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/tel"
+                android:textColor="@color/my_color"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edTel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@null"
+                android:ems="10"
+                android:hint="@string/tel_number"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:id="@+id/divider3"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/my_color"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTitleIndex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/index"
+                android:textColor="@color/my_color"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_index"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@null"
+                android:ems="10"
+                android:hint="@string/index"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:id="@+id/divider4"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/my_color"
+                android:orientation="horizontal"></LinearLayout>
+
+            <CheckBox
+                android:id="@+id/ch_send"
+                android:layout_width="233dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:ems="10"
+                android:padding="10dp"
+                android:text="@string/with_send"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:id="@+id/divider8"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/my_color"
+                android:orientation="horizontal"></LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvTitleCat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/category"
+                android:textColor="@color/my_color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:foregroundGravity="center"
+                android:onClick="onClickeSelectCat"
+                android:padding="10dp"
+                android:text="@string/select_category"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:id="@+id/divider5"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/my_color"
+                android:orientation="horizontal"></LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/tvTitleName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/title"
+                android:textColor="@color/my_color"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:foregroundGravity="center"
+                android:padding="10dp"
+                android:hint="@string/title_hite"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:id="@+id/divider9"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/my_color"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTitlePrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/price"
+                android:textColor="@color/my_color"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@null"
+                android:ems="10"
+                android:hint="@string/price_hint"
+                android:padding="10dp"
+                android:inputType="number"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:id="@+id/divider6"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/my_color"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTitleDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/description"
+                android:textColor="@color/my_color"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@null"
+                android:ems="10"
+                android:hint="@string/description_hint"
+                android:padding="10dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/divider7"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/my_color"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/bt_publish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/my_color"
+                android:onClick="onClickePublish"
+                android:text="@string/publ"
+                app:layout_marginBaseline="20dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
